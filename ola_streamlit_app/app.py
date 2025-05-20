@@ -41,7 +41,7 @@ if page == "Home":
 
     col1, col2 = st.columns([1, 7])
     with col1:
-        st.image("images.png", width=100)
+        st.image("ola_streamlit_app/images.png", width=100)
     with col2:
         st.markdown("<h1 style='color:black; font-size: 60px;'>OLA Ride Insights Dashboard</h1>", unsafe_allow_html=True)
 
@@ -70,7 +70,7 @@ if page == "Home":
         st.metric("Avg. Rating", "4.6 ⭐")
 
     st.markdown("###  Use the **Sidebar** to Explore SQL Queries and Visualizations")
-    st.image("ola.jpg", use_container_width=True)
+    st.image("ola_streamlit_app/ola.jpg", use_container_width=True)
     st.markdown("---")
     st.markdown(
         """
@@ -165,7 +165,7 @@ elif page == "Power BI Dashboard":
 
 # Display logo in the first column
     with col1:
-      st.image("New_Power_BI_Logo.svg.png", width=50)
+      st.image("ola_streamlit_app/New_Power_BI_Logo.svg.png", width=50)
 
 # Display title in the second column
     with col2:
@@ -179,23 +179,23 @@ elif page == "Power BI Dashboard":
     )
 
     if option == "Overall":
-       st.image("overall.png", use_container_width=True)
+       st.image("ola_streamlit_app/overall.png", use_container_width=True)
 
     elif option == "Vehicle Type":
-       st.image("vehicle type.png", use_container_width=True)
+       st.image("ola_streamlit_app/vehicle type.png", use_container_width=True)
 
     elif option == "Revenue":
-       st.image("Revenue.png", use_container_width=True)
+       st.image("ola_streamlit_app/Revenue.png", use_container_width=True)
 
     elif option == "Cancellation":
-       st.image("Cancellation.png", use_container_width=True)
+       st.image("ola_streamlit_app/Cancellation.png", use_container_width=True)
 
     elif option == "Ratings":
-       st.image("Ratings.png", use_container_width=True)
+       st.image("ola_streamlit_app/Ratings.png", use_container_width=True)
     st.markdown("###")
     st.markdown("---")
     # Optional download button for your .pbix file
-    with open("ola_ride_dashboard.pbix", "rb") as file:
+    with open("ola_streamlit_app/ola_ride_dashboard.pbix", "rb") as file:
         st.download_button("📥 Download Full Power BI Report (.pbix)", file, file_name="OLA_Dashboard.pbix")
     st.markdown("""
         <div style='text-align: center; padding: 30px 0 10px 0; color: gray;'>
@@ -206,3 +206,4 @@ elif page == "Power BI Dashboard":
             <small>© 2025 OLA Analytics Project | All Rights Reserved</small>
         </div>
     """, unsafe_allow_html=True)
+    
