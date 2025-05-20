@@ -1,4 +1,4 @@
-🚖 Ola Ride Insights
+🚖 Ola Ride Insights:
 An end-to-end data analysis project on OLA ride-sharing data, uncovering key insights using SQL, Power BI, and a Streamlit-based dashboard.
 
 📌 Problem Statement:
@@ -20,16 +20,16 @@ Ola_Ride_Insights/
 ├── powerbi_dashboard.pbix # Power BI dashboard file
 └── README.md # Project documentation
 
-🔍 Key Insights Extracted
+🔍 Key Insights Extracted--
 
- ✅ SQL Queries:
+✅ SQL Queries:
 - Total successful bookings
 - Average ride distance per vehicle type
 - Cancelled rides (by customer & driver)
 - Max & Min driver ratings (Prime Sedan)
 - UPI payments, incomplete rides, and more
 
- 📈 Power BI Dashboard Highlights:
+📈 Power BI Dashboard Highlights:
 1. Ride volume over time
 2. Booking status breakdown
 3. Top vehicle types by distance
@@ -37,26 +37,26 @@ Ola_Ride_Insights/
 5. Cancellations reasons
 6. Customer vs. Driver ratings
 
- 🌐 Streamlit Dashboard:
- - User-friendly interface
+🌐 Streamlit Dashboard:
+- User-friendly interface
 - Query-wise insights
 - Metric highlights and visualizations
 
-  📷 Screenshots:
+📷 Screenshots:
   ![overall](https://github.com/user-attachments/assets/e0771abd-f3a2-4a4b-8944-b6adcc3a44fc)
 
 
 
   ![Revenue](https://github.com/user-attachments/assets/7c49c817-aab7-47c8-87d9-dd5fd35560be)
 
-  🔮 Future Enhancements
+🔮 Future Enhancements:
 
 - Add ML model for ride demand prediction
 - Integrate live API data from OLA
 - Deploy on AWS/GCP for enterprise use
 - Include more granular customer/driver behavior analysis
 
-  🚀 How to Run the Project
+🚀 How to Run the Project:
 
     1. Clone the repo:
        git clone https://github.com/yourusername/Ola_Ride_Insights.git
@@ -65,10 +65,10 @@ Ola_Ride_Insights/
     2. Run the Streamlit app:
        streamlit run app.py
        
-  👤 Author
-  GitHub Profile - https://github.com/san0666
+👤 Author-
+   GitHub Profile - https://github.com/san0666
 
-  📄 License
-  This project is open-source and free to use under the MIT License.
+📄 License-
+   This project is open-source and free to use under the MIT License.
 
 
