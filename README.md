@@ -38,12 +38,13 @@ Ola_Ride_Insights/
 6. Customer vs. Driver ratings
 
  🌐 Streamlit Dashboard:
-- User-friendly interface
+ - User-friendly interface
 - Query-wise insights
 - Metric highlights and visualizations
 
   📷 Screenshots:
   ![overall](https://github.com/user-attachments/assets/e0771abd-f3a2-4a4b-8944-b6adcc3a44fc)
+  
   ![Revenue](https://github.com/user-attachments/assets/7c49c817-aab7-47c8-87d9-dd5fd35560be)
 
   🔮 Future Enhancements
@@ -59,13 +60,7 @@ Ola_Ride_Insights/
        git clone https://github.com/yourusername/Ola_Ride_Insights.git
        cd Ola_Ride_Insights
        
-    2. Install dependencies:
-       streamlit
-       pandas
-       matplotlib
-       pyplot
-       
-    4. Run the Streamlit app:
+    2. Run the Streamlit app:
        streamlit run app.py
        
   👤 Author
