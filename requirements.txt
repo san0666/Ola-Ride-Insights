@@ -1,0 +1,6 @@
+streamlit
+pandas
+matplotlib
+mysql-connector-python  # connecting to MySQL
+seaborn                 # used for visualizations
+plotly                  
