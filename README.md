@@ -65,7 +65,7 @@ Ola_Ride_Insights/
     2. Run the Streamlit app:
        streamlit run app.py
        
-🚀 Live Demo
+🌐 Live Demo
 
 Check out the deployed Streamlit app here:  
 👉 [Ola Ride Insights Dashboard](https://ola-ride-insights-eurmtmyia69cy9vksaxqwo.streamlit.app/)
