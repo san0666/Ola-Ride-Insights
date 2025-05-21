@@ -6,6 +6,6 @@ def get_connection():
         port=32361,
         user="root",
         password="maUUVmXJlzlupYdWnDLyKIqFXQmjDsDV",
-        database="ola_db"
+        database="railway"
     )
 
